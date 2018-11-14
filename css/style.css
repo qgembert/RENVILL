@@ -1,0 +1,159 @@
+body{
+	font-family: Rage Italic;
+	background-image:url(../images/g.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed; 
+
+}
+
+a, h1 {
+	text-decoration: none;
+}
+
+header { border: 5px solid rgba(0, 0, 0, 0.5);
+		padding:5px;
+		margin:10px;
+		color:black;
+		text-shadow: 2px 3px white;
+}
+
+.main-header {
+	display:grid;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 0px;
+	grid-template-columns:1fr;
+	color: white;
+}
+
+
+#main-menu {
+	list-style: none;
+	display: grid;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display:grid;
+	grid-gap: 20px;
+	grid-template-columns: auto auto auto auto auto;
+	margin-bottom: 10px;
+}
+
+.button {
+	background-color: #000000;
+	color: white;
+	padding: 10px 25px;
+	
+}
+
+.button:hover {
+	background: 	#696969;
+	color: black;
+	transition: 2s;
+	
+}
+
+
+.main-article {
+	padding:105px;
+	margin-bottom: 5px;
+	display:grid;
+	grid-template-columns:auto auto auto ;
+	
+}
+.grid-container {
+	padding:80px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  position: relative;
+	
+  
+}
+.grid-item {
+  border: 10px solid rgba(0, 0, 0, 0.1);
+  padding: 40px ;
+  font-size: 20px;
+  text-align: center;
+  grid-gap:40px;
+ 
+}
+
+img {
+   border-radius: 50%;
+	max-width: 100%;
+    height: auto;
+ }
+
+
+ 
+.showcase {
+	padding: 350px;
+	margin-bottom: 10px;
+	background-color:#696969;
+	background-image:url(../images/resto.jpg);
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;  
+	text-align:center;
+	color:#fff;
+	font-size:27px;
+	letter-spacing:8px;
+	text-transform:uppercase;
+}
+
+.showcase:hover{
+	transition: 5s;
+	background-image:url(../images/cafe.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;  
+}
+
+
+.container > div {
+	padding: 90px;
+}
+
+.container {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.eat {
+  padding: 70px ;
+  grid-gap:40px;
+   display: grid;
+  grid-template-columns: auto;
+}
+
+.city {
+ border: 10px solid rgba(0, 0, 0, 0.1);
+  padding: 30px ;
+  font-size: 20px;
+  text-align: center;
+  grid-gap:10px;
+}
+.renvill {
+	font-size: 29px;
+	font-style:ENGRAVERSGOTHIC BT;
+}
+
+
+.main-footer {
+	padding: 5px;
+	color: white;
+	text-align: center;
+	background: #000000;
+	margin: 1px;
+	
+}
